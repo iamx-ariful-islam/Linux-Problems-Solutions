@@ -1,0 +1,12 @@
+# How to Download and Install Live Wallpaper (Komorebi) on Linux
+
+Komorebi allows you to set live wallpapers on Linux desktops.
+
+1. Download Komorebi
+https://github.com/cheesecakeufo/komorebi/releases
+
+2. Install Komorebi
+sudo dpkg -i komorebi-2.1-64-bit.deb
+
+3. Run Komorebi
+Search for "Komorebi" in the Applications menu and launch it.

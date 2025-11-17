@@ -1,0 +1,10 @@
+# How to Start Metasploit Framework
+
+1. Start PostgreSQL service
+sudo systemctl start postgresql
+
+2. Initialize database
+msfdb init
+
+3. Start metasploit console
+msfconsole

@@ -1,0 +1,9 @@
+# How to Install Zeal on Kali Linux
+
+Zeal is an offline documentation browser for software developers.
+
+1. Install Zeal
+sudo apt-get install zeal
+
+2. Run Zeal
+zeal

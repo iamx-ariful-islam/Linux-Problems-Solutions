@@ -1,0 +1,9 @@
+# How to Install Bangla Fonts on Linux
+
+Easily add Bangla (Bengali) fonts to your system.
+
+1. Manual Installation
+Download `kalpurush.ttf`, then double-click and install.
+
+2. Using Package Manager
+sudo apt-get install fonts-beng

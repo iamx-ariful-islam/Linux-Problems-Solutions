@@ -1,0 +1,11 @@
+# How to Install and Run SL (Steam Locomotive) Game on Linux
+
+SL is a fun terminal-based game where a steam train runs across your terminal screen.
+
+1. Install SL
+sudo apt-get install sl
+
+2. Run SL
+cd /etc/games  # navigate to the games directory
+./sl           # normal mode
+./sl-h         # hidden mode

@@ -1,0 +1,10 @@
+# Identify Hash Type in Kali Linux
+
+1. Install hash-identifier
+sudo apt-get install hash-identifier
+
+2. Run tool
+hash-identifier
+
+3. Paste hash and detect type
+MD5, SHA1, SHA256, NTLM etc

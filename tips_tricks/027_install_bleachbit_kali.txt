@@ -1,0 +1,9 @@
+# How to Install and Run BleachBit on Linux
+
+BleachBit is a system cleaner that frees disk space and maintains privacy.
+
+1. Install BleachBit
+sudo apt-get install bleachbit
+
+2. Run BleachBit
+bleachbit

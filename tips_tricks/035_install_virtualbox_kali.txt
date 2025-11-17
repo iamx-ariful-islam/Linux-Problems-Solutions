@@ -1,0 +1,28 @@
+# How to Install and Uninstall VirtualBox on Linux
+
+VirtualBox is a free and open-source virtualization software.
+
+1. Add VirtualBox Repository
+sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list'
+
+2. Add Oracle Public Keys
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+
+3. Update Package List
+sudo apt-get update
+
+4. Install VirtualBox
+sudo apt-get install virtualbox-5.2
+
+5. Run VirtualBox
+virtualbox
+
+
+# Uninstall VirtualBox
+
+1. Remove VirtualBox Packages
+sudo apt-get remove virtualbox-*
+
+2. Purge Remaining Files
+sudo apt-get purge virtualbox-*

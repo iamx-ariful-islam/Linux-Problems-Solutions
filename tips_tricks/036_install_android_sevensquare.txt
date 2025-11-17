@@ -1,0 +1,24 @@
+# How to Install Seven-Square (Android Screen Tool) on Linux
+
+Seven-Square allows you to control Android devices from your Linux system.
+
+1. Install Dependencies
+sudo apt-get install android-tools-adb qt4-qmake libqt4-dev libqtcore4 libqtgui4
+
+2. Download Seven-Square
+wget https://github.com/yangh/sevensquare/archive/master.zip
+
+3. Extract Files
+unzip master.zip
+cd sevensquare-master
+
+4. Build and Install
+make
+sudo make install
+
+5. Run Seven-Square
+seven-square
+
+6. Connect Android Device
+- Connect phone via USB
+- Enable Developer Mode on your phone

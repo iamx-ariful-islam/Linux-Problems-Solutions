@@ -1,0 +1,13 @@
+# Install USB Image Writer (Etcher) on Kali Linux
+
+1. Download Etcher
+From official site: https://etcher.io/
+From GitHub: https://github.com/resin-io/etcher#debian-and-ubuntu-based-package-repository-gnulinux-x86x64
+
+2. Unzip the file
+unzip <filename>.zip
+cd <folder_name>
+
+3. Run Etcher
+chmod +x <filename>.AppImage
+./<filename>.AppImage

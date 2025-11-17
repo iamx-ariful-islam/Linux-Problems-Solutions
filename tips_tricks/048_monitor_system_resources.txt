@@ -1,0 +1,10 @@
+# How to Monitor System Resources
+
+1. CPU usage
+top
+
+2. Memory usage
+free -h
+
+3. Real-time hardware usage
+watch -n 1 sensors

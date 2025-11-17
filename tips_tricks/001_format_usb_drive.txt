@@ -1,0 +1,17 @@
+# How to Download and Install USB Image Writer (Etcher) on Kali Linux
+
+1. Locate USB Drive
+df
+
+2. Unmount USB Drive
+sudo umount /dev/sdb1
+
+3. Format USB Drive
+FAT32: sudo mkfs.vfat /dev/sdb1
+NTFS: sudo mkfs.ntfs /dev/sdb1
+exFAT: sudo mkfs.exfat /dev/sdb1
+
+# Replace /dev/sdb1 with your USB drive path. Formatting will erase all data.
+
+4. Verify USB Drive
+sudo fsck /dev/sdb1

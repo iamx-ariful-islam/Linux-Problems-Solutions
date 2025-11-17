@@ -1,0 +1,21 @@
+# How to Install and Use Rootkit Hunter (rkhunter) on Linux
+
+Rootkit Hunter scans your Linux system for rootkits, backdoors, and local exploits.
+
+1. Install rkhunter
+sudo apt-get install rkhunter
+
+2. Run a System Check
+rkhunter -c
+
+# Press ENTER when prompted, use V to view warnings, Q to quit
+
+3. Optional Commands
+- Update rkhunter properties:
+  rkhunter --propupd
+
+- Update rkhunter data files:
+  rkhunter --update
+
+- Check rkhunter version:
+  rkhunter --versioncheck

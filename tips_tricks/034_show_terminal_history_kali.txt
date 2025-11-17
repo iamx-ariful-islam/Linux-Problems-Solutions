@@ -1,0 +1,10 @@
+# How to Show Terminal History on Linux
+
+Quick ways to view your terminal command history.
+
+1. Using History Command
+history
+
+2. Using Bash History File
+Open the hidden file:
+~/.bash_history

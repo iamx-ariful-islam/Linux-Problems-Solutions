@@ -1,0 +1,12 @@
+# How to Install and Run VLC Player on Linux
+
+VLC is a free and open-source multimedia player that plays most multimedia files.
+
+1. Install VLC
+sudo apt-get install vlc
+
+2. (Optional) Fix Permission Issue
+sudo sed -i s/geteuid/getppid/g /usr/bin/vlc
+
+3. Run VLC
+vlc

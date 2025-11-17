@@ -1,0 +1,11 @@
+# How to Install Geany on Kali Linux
+
+Geany is a small and lightweight Integrated Development Environment (IDE). 
+It is designed to be fast and simple, requiring only a few GTK2 runtime libraries. 
+Geany works independently of major desktop environments like KDE or GNOME.
+
+1. Install Geany
+sudo apt-get install geany
+
+2. Run Geany
+geany

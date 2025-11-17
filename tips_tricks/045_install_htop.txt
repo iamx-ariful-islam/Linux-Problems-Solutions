@@ -1,0 +1,9 @@
+# How to Install and Run htop on Kali Linux
+
+htop is an interactive process viewer for Linux.
+
+1. Install htop
+sudo apt-get install htop
+
+2. Run htop
+htop

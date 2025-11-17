@@ -1,0 +1,9 @@
+# How to Install and Run CMatrix on Linux
+
+CMatrix is a terminal-based Matrix-like screen effect.
+
+1. Install CMatrix
+sudo apt-get install cmatrix
+
+2. Run CMatrix
+cmatrix

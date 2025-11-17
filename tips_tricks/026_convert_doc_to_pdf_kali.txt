@@ -1,0 +1,11 @@
+# How to Convert DOC/DOCX to PDF on Linux
+
+Quick guide to convert Word documents to PDF format.
+
+1. Install unoconv
+sudo apt-get install unoconv
+
+2. Convert DOC/DOCX to PDF
+doc2pdf <filename>.doc
+# or
+doc2pdf <filename>.docx

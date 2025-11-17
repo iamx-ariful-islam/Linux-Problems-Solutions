@@ -1,0 +1,9 @@
+# How to Install and Run Atom Text Editor on Linux
+
+Atom is a free and open-source text editor for developers.
+
+1. Install Atom
+sudo dpkg -i atom-amd64.deb
+
+2. Run Atom
+atom

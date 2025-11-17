@@ -1,0 +1,19 @@
+# How to Install Main Menu on Kali Linux
+
+1. Update and Upgrade
+sudo apt-get update && sudo apt-get upgrade
+
+2. Install Main Menu
+sudo apt-get install alacarte
+
+3. Launch Main Menu
+Open Applications menu and search for "Main Menu", then click to run.
+
+4. Add New Item
+Click the "New Item" button, then enter:
+- Item Name
+- Command
+- Icon
+- Comment
+
+Click "OK" to save the new menu item.

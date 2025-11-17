@@ -1,0 +1,3 @@
+# Running Services
+
+systemctl --type=service --state=running

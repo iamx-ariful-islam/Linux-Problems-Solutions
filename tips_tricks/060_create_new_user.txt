@@ -1,0 +1,4 @@
+# Add New User
+
+sudo adduser <username>
+sudo usermod -aG sudo <username>

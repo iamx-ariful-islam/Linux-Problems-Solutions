@@ -1,0 +1,9 @@
+# How to Install and Use GIMP (Alternative to Photoshop) on Linux
+
+GIMP is a free and powerful image editing software, similar to Photoshop.
+
+1. Install GIMP
+sudo apt-get install gimp
+
+2. Run GIMP
+gimp

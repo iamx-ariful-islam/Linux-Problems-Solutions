@@ -1,0 +1,9 @@
+# How to Install Deluge on Linux
+
+Deluge is a lightweight and full-featured BitTorrent client.
+
+1. Install Deluge
+sudo apt-get install deluge
+
+2. Run Deluge
+deluge

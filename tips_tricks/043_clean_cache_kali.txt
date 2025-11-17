@@ -1,0 +1,10 @@
+# How to Clean Cache and Free Space on Kali Linux
+
+1. Clean apt cache
+sudo apt clean
+
+2. Remove unnecessary packages
+sudo apt autoremove -y
+
+3. Remove orphaned config files
+sudo dpkg -l | grep '^rc' | awk '{print $2}' | xargs sudo dpkg --purge

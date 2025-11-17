@@ -1,0 +1,12 @@
+# How to Install and Use Figlet on Linux
+
+Figlet is a command-line tool to create ASCII art text in the terminal.
+
+1. Install Figlet
+sudo apt-get install figlet
+
+2. Run Figlet
+figlet <your_text>
+
+3. Customize Terminal Startup (Optional)
+gedit /root/.bashrc

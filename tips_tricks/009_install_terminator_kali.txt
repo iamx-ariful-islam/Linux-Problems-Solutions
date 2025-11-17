@@ -1,0 +1,16 @@
+# How to Make Multiple Terminals on Kali Linux
+
+Terminator allows you to split your terminal into multiple panes.
+
+1. Install Terminator
+sudo apt-get install terminator
+
+2. Run Terminator
+terminator
+
+Or search for "Terminator" in the Applications menu and open it.
+
+3. Split Terminal
+Right-click inside Terminator terminal and choose:
+- Split Horizontally
+- Split Vertically

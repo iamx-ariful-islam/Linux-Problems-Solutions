@@ -1,0 +1,31 @@
+# Fix "Not Enough Physical Memory" Error for VMware Workstation on Linux
+
+Follow these steps if VMware fails to run due to insufficient memory.
+
+1. Change to VMware modules source directory
+cd /usr/lib/vmware/modules/source
+
+2. Extract vmmon module
+tar xf vmmon.tar
+
+3. Change to Linux module directory
+cd vmmon-only/linux
+
+4. Download updated hostif.c file
+wget https://raw.githubusercontent.com/mkubecek/vmware-host-modules/fadedd9c8a4dd23f74da2b448572df95666dfe12/vmmon-only/linux/hostif.c
+# alternatively, download from:
+# https://github.com/mkubecek/vmware-host-modules/commit/770c7ffe611520ac96490d235399554c64e87d9f
+# save the file as hostif.c
+
+5. Move hostif.c to vmmon directory
+sudo mv hostif.c /usr/lib/vmware/modules/source/vmmon-only/linux
+
+6. Repack vmmon module
+cd /usr/lib/vmware/modules/source
+sudo tar cf vmmon.tar vmmon-only
+
+7. Clean up
+sudo rm -rf vmmon-only
+
+8. Rebuild VMware modules
+sudo vmware-modconfig --console --install-all

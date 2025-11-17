@@ -1,0 +1,21 @@
+# How to Download and Install Pip GUI on Kali Linux
+
+Pip GUI is a graphical interface for managing Python packages.
+
+1. Clone the Repository
+git clone https://github.com/GDGVIT/pip-gui.git
+
+2. Navigate to the Folder
+cd pip-gui
+
+3. Check Available Commands
+python setup.py
+
+4. Build Setup
+python setup.py build
+
+5. Install Pip GUI
+python setup.py install
+
+6. Run Pip GUI
+pipgui

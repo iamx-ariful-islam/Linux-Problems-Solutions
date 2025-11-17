@@ -1,0 +1,25 @@
+# How to Speed Up Kali Linux
+
+Follow these methods to optimize and update your Kali Linux system.
+
+Method 1: Clean Cache & Update DNS
+1. Clean package cache:
+   sudo apt-get clean
+
+2. Edit DNS settings:
+   sudo leafpad /etc/resolv.conf
+   nameserver 8.8.8.8
+   nameserver 8.8.4.4
+
+3. Update system:
+   sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
+
+Method 2: Update Repositories
+1. Edit sources.list:
+   sudo leafpad /etc/apt/sources.list
+   # change HTTP links to preferred repositories
+
+2. Save file
+
+3. Update system:
+   sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade

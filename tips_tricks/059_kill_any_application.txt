@@ -1,0 +1,7 @@
+# Kill a Program
+
+1. Find process ID
+ps aux | grep <program>
+
+2. Kill process
+kill -9 <PID>

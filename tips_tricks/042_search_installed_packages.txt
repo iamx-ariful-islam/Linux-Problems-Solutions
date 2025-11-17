@@ -1,0 +1,7 @@
+# How to Search Installed Packages on Kali Linux
+
+1. Search for a package
+dpkg -l | grep <package-name>
+
+2. Check package info
+apt show <package-name>

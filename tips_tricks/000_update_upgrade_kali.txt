@@ -1,0 +1,26 @@
+# How to Update, Upgrade, and Dist-Upgrade Linux
+
+Keep your system up-to-date using the following commands.
+
+1. Update Package List
+sudo apt update
+# or
+sudo apt-get update
+
+2. Upgrade Packages
+sudo apt upgrade
+# or
+sudo apt-get upgrade
+
+3. Dist-Upgrade (Full Upgrade)
+sudo apt dist-upgrade
+# or
+sudo apt-get dist-upgrade
+
+4. Remove Packages
+sudo apt auto-remove
+# or
+sudo apt-get auto-reomv
+
+5. Reboot System
+sudo reboot

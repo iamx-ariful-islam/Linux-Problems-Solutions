@@ -1,0 +1,14 @@
+# How to Download and Install Redshift on Kali Linux
+
+Redshift adjusts the color temperature of your screen according to your surroundings. 
+It helps reduce eye strain, especially when working at night.
+
+1. Install Redshift
+sudo apt-get install redshift-gtk
+
+2. Set Your Location
+redshift -l <lat>:<lon> -t day:night
+
+3. Uninstall Redshift
+redshift -O 6500
+sudo apt-get remove --purge redshift redshift-gtk

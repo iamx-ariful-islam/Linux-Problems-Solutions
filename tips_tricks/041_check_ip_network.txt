@@ -1,0 +1,10 @@
+# How to Check IP Address and Network Info on Kali Linux
+
+1. Check IP address
+ip addr
+
+2. Check routing table
+route -n
+
+3. Test connectivity
+ping google.com

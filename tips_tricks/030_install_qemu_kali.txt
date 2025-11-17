@@ -1,0 +1,10 @@
+# How to Install and Uninstall QEMU on Linux
+
+QEMU is a generic and open-source machine emulator and virtualizer.
+
+1. Install QEMU
+sudo apt-get install qemu
+
+2. Uninstall QEMU
+sudo apt-get remove --purge qemu
+sudo apt-get autoremove

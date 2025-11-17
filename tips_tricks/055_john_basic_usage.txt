@@ -1,0 +1,10 @@
+# Basic Password Cracking with John the Ripper
+
+1. Convert password file to hash
+john --show <hashfile>
+
+2. Crack password with wordlist
+john --wordlist=<wordlist> <hashfile>
+
+3. View cracked passwords
+john --show <hashfile>

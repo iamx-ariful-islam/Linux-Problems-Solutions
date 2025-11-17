@@ -1,0 +1,15 @@
+# How to Install and Run SWI-Prolog on Linux
+
+SWI-Prolog is a free implementation of the Prolog programming language.
+
+1. Install SWI-Prolog
+sudo apt-get install swi-prolog
+
+2. Create a Prolog File
+Create a file with the extension `.pl`, e.g., <filename>.pl
+
+3. Navigate to File Path
+Use `cd` to go to the folder containing your Prolog file.
+
+4. Run Prolog Program
+swipl -s <filename>.pl

@@ -1,0 +1,16 @@
+# How to Install and Use AlsaMixer on Linux
+
+AlsaMixer is a command-line and GUI tool to control audio settings on Linux.
+
+1. Install Alsa Packages
+sudo apt-get install libasound2 alsa-utils alsa-oss
+
+2. Run AlsaMixer
+alsamixer
+
+3. (Optional) Install KMix GUI
+sudo apt-get install kmix
+kmix
+
+4. Reboot System
+sudo reboot

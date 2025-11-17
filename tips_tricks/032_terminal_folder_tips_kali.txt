@@ -1,0 +1,16 @@
+# Linux Terminal & Folder Tips
+
+Quick shortcuts for managing files/folders and terminal text.
+
+1. Show Hidden Files/Folders
+Press Ctrl + H
+
+2. Hide Any Folder/File
+Prefix the file/folder name with a dot:
+.<filename_or_foldername>
+
+3. Change Terminal Text
+Press Ctrl + T
+
+4. Find Files/Folders in Terminal
+Press Ctrl + Tab

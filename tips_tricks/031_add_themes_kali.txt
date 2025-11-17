@@ -1,0 +1,15 @@
+# How to Add Themes on Linux
+
+Easily customize your Linux desktop with new themes.
+
+1. Download Themes
+Visit https://www.gnome-look.org/ to download your preferred themes.
+
+2. Extract Theme Files
+tar -xvf <filename>.tar.gz   # or .tar, .gz
+
+3. Move Theme to System Directory
+sudo mv <extracted_folder> /usr/share/themes
+
+4. Apply Theme
+Open **Tweaks Tools** and select your new theme from the Appearance section.

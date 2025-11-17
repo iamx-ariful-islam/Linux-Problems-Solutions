@@ -1,0 +1,16 @@
+# How to Install XDM (Xtreme Download Manager) on Linux
+
+XDM is a powerful download manager to accelerate and manage downloads.
+
+1. Download XDM
+Download the file: <filename>.tar.xz
+
+2. Extract Files
+tar -xvf <filename>.tar.xz
+
+3. Install XDM
+cd <extracted-folder>
+sudo ./install.sh
+
+4. Run XDM
+xdman

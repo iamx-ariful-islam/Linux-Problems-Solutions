@@ -1,0 +1,15 @@
+# How to Install Git GUI on Linux
+
+Git GUI provides a graphical interface to work with Git repositories.
+
+1. Check Git Version
+git --version
+
+2. Update System (if Git is outdated)
+sudo apt update && sudo apt upgrade
+
+3. Install Git GUI
+sudo apt-get install git-gui
+
+4. Run Git GUI
+git gui

@@ -1,0 +1,10 @@
+# Custom Shortcuts (Aliases)
+
+1. Open .bashrc
+nano ~/.bashrc
+
+2. Add alias
+alias update='sudo apt update && sudo apt upgrade -y'
+
+3. Save and reload
+source ~/.bashrc

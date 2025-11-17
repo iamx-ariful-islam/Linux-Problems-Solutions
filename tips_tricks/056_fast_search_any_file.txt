@@ -1,0 +1,10 @@
+# Search Files Fast
+
+1. Install mlocate
+sudo apt-get install mlocate
+
+2. Update db
+sudo updatedb
+
+3. Find anything
+locate <filename>

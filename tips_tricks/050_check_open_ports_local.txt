@@ -1,0 +1,10 @@
+# How to Check Open Ports on Your Machine
+
+1. List open ports
+sudo netstat -tulpn
+
+2. Using ss (modern tool)
+ss -tulpn
+
+3. Scan yourself using nmap
+nmap 127.0.0.1

@@ -1,0 +1,21 @@
+# How to Install and Run VMware Workstation on Linux
+
+VMware Workstation allows you to run multiple virtual machines on a single Linux host.
+
+1. Make Installer Executable
+chmod a+x <filename>
+
+2. Run Installer
+./<filename>
+
+3. Install Linux Headers
+sudo apt-get update && sudo apt-get install -y linux-headers-$(uname -r)
+
+4. Reboot System
+sudo reboot
+
+5. Run VMware Workstation
+vmware
+
+6. Uninstall VMware Workstation
+vmware-installer -u vmware-workstation

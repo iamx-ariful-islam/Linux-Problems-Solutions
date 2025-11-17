@@ -1,0 +1,13 @@
+# Basic Nmap Scans for Beginners
+
+1. Ping scan (find live hosts)
+nmap -sn <target-subnet>
+
+2. Basic port scan
+nmap <target-ip>
+
+3. Scan specific ports
+nmap -p 80,443 <target-ip>
+
+4. Service detection
+nmap -sV <target-ip>

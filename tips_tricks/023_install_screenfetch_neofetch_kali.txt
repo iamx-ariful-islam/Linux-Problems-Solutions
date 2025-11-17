@@ -1,0 +1,13 @@
+# How to Install and Run Screenfetch / Neofetch on Linux
+
+Screenfetch and Neofetch are command-line tools to display system information with ASCII art.
+
+1. Install
+sudo apt-get install screenfetch
+# or
+sudo apt-get install neofetch
+
+2. Run
+screenfetch
+# or
+neofetch

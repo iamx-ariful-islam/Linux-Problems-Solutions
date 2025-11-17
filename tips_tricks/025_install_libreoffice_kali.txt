@@ -1,0 +1,15 @@
+# How to Install LibreOffice on Linux
+
+LibreOffice is a free and open-source office suite including Writer, Calc, Impress, and more.
+
+1. Extract the archive
+tar -zxvf <file name>.tar.gz
+
+2. Change to extracted folder
+cd <file name>
+
+3. Change to DEBS directory
+cd DEBS
+
+4. Install all .deb packages
+sudo dpkg -i *.deb

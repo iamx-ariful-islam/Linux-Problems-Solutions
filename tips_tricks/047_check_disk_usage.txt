@@ -1,0 +1,10 @@
+# How to Check Disk Usage in Kali Linux
+
+1. Show disk usage summary
+df -h
+
+2. Show folder size
+du -sh <folder-name>
+
+3. View disk partitions
+lsblk

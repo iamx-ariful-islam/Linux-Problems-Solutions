@@ -1,0 +1,13 @@
+# Enable Simple or Basic Firewall (UFW)
+
+1. Install UFW
+sudo apt-get install ufw
+
+2. Enable firewall
+sudo ufw enable
+
+3. Allow SSH
+sudo ufw allow ssh
+
+4. Check status
+sudo ufw status

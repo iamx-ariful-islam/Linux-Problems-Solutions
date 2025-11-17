@@ -1,0 +1,7 @@
+# Speed Up Boot Time
+
+1. Disable unwanted services
+sudo systemctl disable <service-name>
+
+2. Check services
+systemctl list-unit-files --type=service

@@ -1,0 +1,10 @@
+# How to Show and Hide Hidden Files in Terminal
+
+1. Show hidden files in terminal
+ls -a
+
+2. Hide any file or folder
+mv <filename> .<filename>
+
+3. Unhide file or folder
+mv .<filename> <filename>

@@ -1,0 +1,14 @@
+# How to Change Hostname in Kali Linux
+
+1. Check current hostname
+hostnamectl
+
+2. Change hostname
+sudo hostnamectl set-hostname <newname>
+
+3. Edit hosts file
+sudo nano /etc/hosts
+(Replace old hostname with new one)
+
+4. Reboot system
+sudo reboot

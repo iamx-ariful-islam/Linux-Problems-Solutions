@@ -1,0 +1,11 @@
+# How to Enable Bluetooth and Hotspot on Linux
+
+Quick commands to manage Bluetooth and create a Wi-Fi hotspot.
+
+1. Restart Bluetooth Service
+sudo service bluetooth restart
+
+2. Open Hotspot Settings
+nm-connection-editor
+
+# Use the GUI to configure your Wi-Fi hotspot

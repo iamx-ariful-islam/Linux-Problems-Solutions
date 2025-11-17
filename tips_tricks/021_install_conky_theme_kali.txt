@@ -1,0 +1,12 @@
+# How to Install and Run Conky on Linux
+
+Conky is a system monitor for X, displaying information on your desktop.
+
+1. Install Conky
+sudo apt-get install conky-all
+
+2. Install Conky Manager (Optional GUI)
+sudo apt-get install conky-manager
+
+3. Run Conky
+conky

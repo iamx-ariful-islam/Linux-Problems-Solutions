@@ -1,0 +1,10 @@
+# How to Install and Check Internet Speed on Kali Linux
+
+1. Install pip
+sudo apt-get install python-pip
+
+2. Install Speedtest CLI
+pip install speedtest-cli
+
+3. Check Internet Speed
+speedtest-cli

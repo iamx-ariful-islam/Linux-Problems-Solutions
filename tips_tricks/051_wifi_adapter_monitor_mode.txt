@@ -1,0 +1,16 @@
+# Enable Monitor Mode for WiFi Hacking
+
+1. Check WiFi adapter name
+iwconfig
+
+2. Stop network manager
+sudo systemctl stop NetworkManager
+
+3. Enable monitor mode
+sudo airmon-ng start <interface>
+
+4. Disable monitor mode
+sudo airmon-ng stop <interface>mon
+
+5. Restart network manager
+sudo systemctl start NetworkManager
